@@ -1,0 +1,735 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C82BABCE7A363583A4AACC2 /* Pods_GameOfThronesAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 417F4A6C2A7CFEC7E7B8D931 /* Pods_GameOfThronesAppUITests.framework */; };
+		35D7F481AC786817CAD83154 /* Pods_GameOfThronesAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E96A361DED067E5C9EBB36D0 /* Pods_GameOfThronesAppTests.framework */; };
+		4E08B5E221F8C4D600564F86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E08B5E121F8C4D600564F86 /* AppDelegate.swift */; };
+		4E08B5E421F8C4D600564F86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E08B5E321F8C4D600564F86 /* ViewController.swift */; };
+		4E08B5E721F8C4D700564F86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E08B5E521F8C4D700564F86 /* Main.storyboard */; };
+		4E08B5E921F8C50800564F86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E08B5E821F8C50800564F86 /* Assets.xcassets */; };
+		4E08B5EC21F8C50800564F86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E08B5EA21F8C50800564F86 /* LaunchScreen.storyboard */; };
+		4E08B5F721F8C50900564F86 /* GameOfThronesAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E08B5F621F8C50900564F86 /* GameOfThronesAppTests.swift */; };
+		4E08B60221F8C50900564F86 /* GameOfThronesAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E08B60121F8C50900564F86 /* GameOfThronesAppUITests.swift */; };
+		4E08B61121F8C92300564F86 /* FetchingObjectsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E08B60F21F8C92300564F86 /* FetchingObjectsTests.swift */; };
+		4E08B61221F8C92300564F86 /* FetchingArraysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E08B61021F8C92300564F86 /* FetchingArraysTests.swift */; };
+		DC5120ABE17918B1A05AD68C /* Pods_GameOfThronesApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF237C9B3F023B135F2DBA1 /* Pods_GameOfThronesApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E08B5F321F8C50900564F86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E08B5D621F8C4D500564F86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E08B5DD21F8C4D600564F86;
+			remoteInfo = GameOfThronesApp;
+		};
+		4E08B5FE21F8C50900564F86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E08B5D621F8C4D500564F86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E08B5DD21F8C4D600564F86;
+			remoteInfo = GameOfThronesApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A96AB72885DBB27165BA415 /* Pods-GameOfThronesAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameOfThronesAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GameOfThronesAppTests/Pods-GameOfThronesAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		417F4A6C2A7CFEC7E7B8D931 /* Pods_GameOfThronesAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GameOfThronesAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E08B5DE21F8C4D600564F86 /* GameOfThronesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameOfThronesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E08B5E121F8C4D600564F86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4E08B5E321F8C4D600564F86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4E08B5E621F8C4D700564F86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E08B5E821F8C50800564F86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E08B5EB21F8C50800564F86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4E08B5ED21F8C50800564F86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E08B5F221F8C50900564F86 /* GameOfThronesAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameOfThronesAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E08B5F621F8C50900564F86 /* GameOfThronesAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOfThronesAppTests.swift; sourceTree = "<group>"; };
+		4E08B5F821F8C50900564F86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E08B5FD21F8C50900564F86 /* GameOfThronesAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameOfThronesAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E08B60121F8C50900564F86 /* GameOfThronesAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOfThronesAppUITests.swift; sourceTree = "<group>"; };
+		4E08B60321F8C50900564F86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E08B60F21F8C92300564F86 /* FetchingObjectsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchingObjectsTests.swift; sourceTree = "<group>"; };
+		4E08B61021F8C92300564F86 /* FetchingArraysTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchingArraysTests.swift; sourceTree = "<group>"; };
+		5028E3B56CB087712AD49139 /* Pods-GameOfThronesApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameOfThronesApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GameOfThronesApp/Pods-GameOfThronesApp.debug.xcconfig"; sourceTree = "<group>"; };
+		5F0115B430B21AC9F1DFADFA /* Pods-GameOfThronesAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameOfThronesAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GameOfThronesAppTests/Pods-GameOfThronesAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		95FA3D7D2C68CDDDF0DD4853 /* Pods-GameOfThronesApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameOfThronesApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-GameOfThronesApp/Pods-GameOfThronesApp.release.xcconfig"; sourceTree = "<group>"; };
+		9F6A00A71E7817AFA417D568 /* Pods-GameOfThronesAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameOfThronesAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GameOfThronesAppUITests/Pods-GameOfThronesAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C57F32CBF9E952865833E9D4 /* Pods-GameOfThronesAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameOfThronesAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GameOfThronesAppUITests/Pods-GameOfThronesAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E96A361DED067E5C9EBB36D0 /* Pods_GameOfThronesAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GameOfThronesAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF237C9B3F023B135F2DBA1 /* Pods_GameOfThronesApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GameOfThronesApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E08B5DB21F8C4D600564F86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC5120ABE17918B1A05AD68C /* Pods_GameOfThronesApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E08B5EF21F8C50900564F86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35D7F481AC786817CAD83154 /* Pods_GameOfThronesAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E08B5FA21F8C50900564F86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C82BABCE7A363583A4AACC2 /* Pods_GameOfThronesAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E08B5D521F8C4D500564F86 = {
+			isa = PBXGroup;
+			children = (
+				4E08B5E021F8C4D600564F86 /* GameOfThronesApp */,
+				4E08B5F521F8C50900564F86 /* GameOfThronesAppTests */,
+				4E08B60021F8C50900564F86 /* GameOfThronesAppUITests */,
+				4E08B5DF21F8C4D600564F86 /* Products */,
+				B0F913A29604F9A7CF626A45 /* Pods */,
+				6673DD49060813744134E004 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4E08B5DF21F8C4D600564F86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E08B5DE21F8C4D600564F86 /* GameOfThronesApp.app */,
+				4E08B5F221F8C50900564F86 /* GameOfThronesAppTests.xctest */,
+				4E08B5FD21F8C50900564F86 /* GameOfThronesAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E08B5E021F8C4D600564F86 /* GameOfThronesApp */ = {
+			isa = PBXGroup;
+			children = (
+				4E08B5E121F8C4D600564F86 /* AppDelegate.swift */,
+				4E08B5E321F8C4D600564F86 /* ViewController.swift */,
+				4E08B5E521F8C4D700564F86 /* Main.storyboard */,
+				4E08B5E821F8C50800564F86 /* Assets.xcassets */,
+				4E08B5EA21F8C50800564F86 /* LaunchScreen.storyboard */,
+				4E08B5ED21F8C50800564F86 /* Info.plist */,
+			);
+			path = GameOfThronesApp;
+			sourceTree = "<group>";
+		};
+		4E08B5F521F8C50900564F86 /* GameOfThronesAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E08B5F621F8C50900564F86 /* GameOfThronesAppTests.swift */,
+				4E08B61021F8C92300564F86 /* FetchingArraysTests.swift */,
+				4E08B60F21F8C92300564F86 /* FetchingObjectsTests.swift */,
+				4E08B5F821F8C50900564F86 /* Info.plist */,
+			);
+			path = GameOfThronesAppTests;
+			sourceTree = "<group>";
+		};
+		4E08B60021F8C50900564F86 /* GameOfThronesAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4E08B60121F8C50900564F86 /* GameOfThronesAppUITests.swift */,
+				4E08B60321F8C50900564F86 /* Info.plist */,
+			);
+			path = GameOfThronesAppUITests;
+			sourceTree = "<group>";
+		};
+		6673DD49060813744134E004 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDF237C9B3F023B135F2DBA1 /* Pods_GameOfThronesApp.framework */,
+				E96A361DED067E5C9EBB36D0 /* Pods_GameOfThronesAppTests.framework */,
+				417F4A6C2A7CFEC7E7B8D931 /* Pods_GameOfThronesAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0F913A29604F9A7CF626A45 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5028E3B56CB087712AD49139 /* Pods-GameOfThronesApp.debug.xcconfig */,
+				95FA3D7D2C68CDDDF0DD4853 /* Pods-GameOfThronesApp.release.xcconfig */,
+				5F0115B430B21AC9F1DFADFA /* Pods-GameOfThronesAppTests.debug.xcconfig */,
+				2A96AB72885DBB27165BA415 /* Pods-GameOfThronesAppTests.release.xcconfig */,
+				9F6A00A71E7817AFA417D568 /* Pods-GameOfThronesAppUITests.debug.xcconfig */,
+				C57F32CBF9E952865833E9D4 /* Pods-GameOfThronesAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E08B5DD21F8C4D600564F86 /* GameOfThronesApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E08B60621F8C50900564F86 /* Build configuration list for PBXNativeTarget "GameOfThronesApp" */;
+			buildPhases = (
+				4076C07A23D554DF68E7468B /* [CP] Check Pods Manifest.lock */,
+				4E08B5DA21F8C4D600564F86 /* Sources */,
+				4E08B5DB21F8C4D600564F86 /* Frameworks */,
+				4E08B5DC21F8C4D600564F86 /* Resources */,
+				00710F237769292F085A4A15 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GameOfThronesApp;
+			productName = GameOfThronesApp;
+			productReference = 4E08B5DE21F8C4D600564F86 /* GameOfThronesApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E08B5F121F8C50900564F86 /* GameOfThronesAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E08B60921F8C50A00564F86 /* Build configuration list for PBXNativeTarget "GameOfThronesAppTests" */;
+			buildPhases = (
+				58F5F707B0B76AB8288E4BBE /* [CP] Check Pods Manifest.lock */,
+				4E08B5EE21F8C50900564F86 /* Sources */,
+				4E08B5EF21F8C50900564F86 /* Frameworks */,
+				4E08B5F021F8C50900564F86 /* Resources */,
+				40D7983927568181D06F0D96 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E08B5F421F8C50900564F86 /* PBXTargetDependency */,
+			);
+			name = GameOfThronesAppTests;
+			productName = GameOfThronesAppTests;
+			productReference = 4E08B5F221F8C50900564F86 /* GameOfThronesAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4E08B5FC21F8C50900564F86 /* GameOfThronesAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E08B60C21F8C50A00564F86 /* Build configuration list for PBXNativeTarget "GameOfThronesAppUITests" */;
+			buildPhases = (
+				A6F3B928ED3EB85915E0D6B7 /* [CP] Check Pods Manifest.lock */,
+				4E08B5F921F8C50900564F86 /* Sources */,
+				4E08B5FA21F8C50900564F86 /* Frameworks */,
+				4E08B5FB21F8C50900564F86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E08B5FF21F8C50900564F86 /* PBXTargetDependency */,
+			);
+			name = GameOfThronesAppUITests;
+			productName = GameOfThronesAppUITests;
+			productReference = 4E08B5FD21F8C50900564F86 /* GameOfThronesAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E08B5D621F8C4D500564F86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Pravith;
+				TargetAttributes = {
+					4E08B5DD21F8C4D600564F86 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					4E08B5F121F8C50900564F86 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 4E08B5DD21F8C4D600564F86;
+					};
+					4E08B5FC21F8C50900564F86 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 4E08B5DD21F8C4D600564F86;
+					};
+				};
+			};
+			buildConfigurationList = 4E08B5D921F8C4D600564F86 /* Build configuration list for PBXProject "GameOfThronesApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E08B5D521F8C4D500564F86;
+			productRefGroup = 4E08B5DF21F8C4D600564F86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E08B5DD21F8C4D600564F86 /* GameOfThronesApp */,
+				4E08B5F121F8C50900564F86 /* GameOfThronesAppTests */,
+				4E08B5FC21F8C50900564F86 /* GameOfThronesAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E08B5DC21F8C4D600564F86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E08B5EC21F8C50800564F86 /* LaunchScreen.storyboard in Resources */,
+				4E08B5E921F8C50800564F86 /* Assets.xcassets in Resources */,
+				4E08B5E721F8C4D700564F86 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E08B5F021F8C50900564F86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E08B5FB21F8C50900564F86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00710F237769292F085A4A15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GameOfThronesApp/Pods-GameOfThronesApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IceAndFireKit/IceAndFireKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IceAndFireKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GameOfThronesApp/Pods-GameOfThronesApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4076C07A23D554DF68E7468B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GameOfThronesApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40D7983927568181D06F0D96 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GameOfThronesAppTests/Pods-GameOfThronesAppTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IceAndFireKit/IceAndFireKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IceAndFireKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GameOfThronesAppTests/Pods-GameOfThronesAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58F5F707B0B76AB8288E4BBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GameOfThronesAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6F3B928ED3EB85915E0D6B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GameOfThronesAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E08B5DA21F8C4D600564F86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E08B5E421F8C4D600564F86 /* ViewController.swift in Sources */,
+				4E08B5E221F8C4D600564F86 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E08B5EE21F8C50900564F86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E08B61121F8C92300564F86 /* FetchingObjectsTests.swift in Sources */,
+				4E08B5F721F8C50900564F86 /* GameOfThronesAppTests.swift in Sources */,
+				4E08B61221F8C92300564F86 /* FetchingArraysTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E08B5F921F8C50900564F86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E08B60221F8C50900564F86 /* GameOfThronesAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E08B5F421F8C50900564F86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E08B5DD21F8C4D600564F86 /* GameOfThronesApp */;
+			targetProxy = 4E08B5F321F8C50900564F86 /* PBXContainerItemProxy */;
+		};
+		4E08B5FF21F8C50900564F86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E08B5DD21F8C4D600564F86 /* GameOfThronesApp */;
+			targetProxy = 4E08B5FE21F8C50900564F86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E08B5E521F8C4D700564F86 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E08B5E621F8C4D700564F86 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4E08B5EA21F8C50800564F86 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E08B5EB21F8C50800564F86 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E08B60421F8C50900564F86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4E08B60521F8C50900564F86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E08B60721F8C50900564F86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5028E3B56CB087712AD49139 /* Pods-GameOfThronesApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GameOfThronesApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Test.GameOfThronesApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E08B60821F8C50900564F86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95FA3D7D2C68CDDDF0DD4853 /* Pods-GameOfThronesApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GameOfThronesApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Test.GameOfThronesApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4E08B60A21F8C50A00564F86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F0115B430B21AC9F1DFADFA /* Pods-GameOfThronesAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GameOfThronesAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Test.GameOfThronesAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GameOfThronesApp.app/GameOfThronesApp";
+			};
+			name = Debug;
+		};
+		4E08B60B21F8C50A00564F86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A96AB72885DBB27165BA415 /* Pods-GameOfThronesAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GameOfThronesAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Test.GameOfThronesAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GameOfThronesApp.app/GameOfThronesApp";
+			};
+			name = Release;
+		};
+		4E08B60D21F8C50A00564F86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F6A00A71E7817AFA417D568 /* Pods-GameOfThronesAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GameOfThronesAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Test.GameOfThronesAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GameOfThronesApp;
+			};
+			name = Debug;
+		};
+		4E08B60E21F8C50A00564F86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C57F32CBF9E952865833E9D4 /* Pods-GameOfThronesAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GameOfThronesAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Test.GameOfThronesAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GameOfThronesApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E08B5D921F8C4D600564F86 /* Build configuration list for PBXProject "GameOfThronesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E08B60421F8C50900564F86 /* Debug */,
+				4E08B60521F8C50900564F86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E08B60621F8C50900564F86 /* Build configuration list for PBXNativeTarget "GameOfThronesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E08B60721F8C50900564F86 /* Debug */,
+				4E08B60821F8C50900564F86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E08B60921F8C50A00564F86 /* Build configuration list for PBXNativeTarget "GameOfThronesAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E08B60A21F8C50A00564F86 /* Debug */,
+				4E08B60B21F8C50A00564F86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E08B60C21F8C50A00564F86 /* Build configuration list for PBXNativeTarget "GameOfThronesAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E08B60D21F8C50A00564F86 /* Debug */,
+				4E08B60E21F8C50A00564F86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E08B5D621F8C4D500564F86 /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - IceAndFireKit (1.2)
+
+DEPENDENCIES:
+  - IceAndFireKit
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - IceAndFireKit
+
+SPEC CHECKSUMS:
+  IceAndFireKit: 4153bd1a02b9fc2024ae05a53207f6aad04b0b9a
+
+PODFILE CHECKSUM: 88b68abe97ddaa53c3d8869ed240af58db6357a7
+
+COCOAPODS: 1.5.0
